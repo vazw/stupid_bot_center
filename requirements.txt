@@ -1,0 +1,5 @@
+ccxt
+fastapi
+line-notify
+mplfinance
+uvicorn[standard]
