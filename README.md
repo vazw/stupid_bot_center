@@ -24,27 +24,27 @@ if Openlong:
 ```
 ## params ของ order ที่จะรับได้
 - exchange
-> Binance 
-> comming...soon
+> Binance <br/>
+> comming...soon<br/>
 - symbol
 > ใช้รูปแบบตาม exchange นั้น ๆ (แนะนำแบบ settle ของ ท่าน @app)
 - order
-> OpenLong > เปิด Long Position โดยราคา market
-> CloseLong > ปิด Long Position โดยราคา market
-> TPLong
-> SLLong
-> TailingLong
-> CloseAllLong
-> OpenShort
-> CloseShort
-> TPShort
-> SLShort
-> TailingShort
-> CloseAllShort
+> OpenLong > เปิด Long Position โดยราคา market<br/>
+> CloseLong > ปิด Long Position โดยราคา market<br/>
+> TPLong<br/>
+> SLLong<br/>
+> TailingLong<br/>
+> CloseAllLong<br/>
+> OpenShort<br/>
+> CloseShort<br/>
+> TPShort<br/>
+> SLShort<br/>
+> TailingShort<br/>
+> CloseAllShort<br/>
 - amount
-> @ = จำนวนเหรียญ/หุ้น
-> $ = จำนวนเงิน fiat
-> % = %ของ Position นั้น ๆ (สำหรับ order close หรือ tp เท่านั้น sl ให้ใช้ %100)
+> @ = จำนวนเหรียญ/หุ้น<br/>
+> $ = จำนวนเงิน fiat<br/>
+> % = %ของ Position นั้น ๆ (สำหรับ order close หรือ tp เท่านั้น sl ให้ใช้ %100)<br/>
 - leverage 
 > ใช้ตามความเหมาะสม interger (1-125)
 - callbackRate และ activatePrice
