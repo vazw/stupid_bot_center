@@ -532,7 +532,7 @@ async def signal_handle(data) -> str:
     "amount": "@0.05",  # any @100, $100, %100 : str
     "leverage": 125,  # any  : int
     "callbackRate": 2.3,  # any if side == Tailing : float
-    "activeatePrice": 25_100,  # any if side == Tailing : float
+    "activatePrice": 25_100,  # any if side == Tailing : float
     "triggerPrice": 30_000,  # any if side == TP or SL : float
     }
     """
