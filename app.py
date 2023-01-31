@@ -57,7 +57,7 @@ async def order(info: Request):
         order = await make_order(order_info)
         return {"status": "SUCCESS", "data": order}
     except Exception:
-        return {"status": "fail", "data": 404}
+        return {"status": "fail", "data": 400}
 
 
 @app.post("/balance")
@@ -74,7 +74,7 @@ async def balance(info: Request):
         print(balance)
         return {"status": "SUCCESS", "data": balance}
     except Exception:
-        return {"status": "Fail", "data": 404}
+        return {"status": "Fail", "data": 400}
 
 
 if __name__ == "__main__":
